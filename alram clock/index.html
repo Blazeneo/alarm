@@ -1,0 +1,54 @@
+<html>
+    <head>
+<title>Alram Clock</title>
+<link rel="stylesheet" href="./style.css">
+<script src="https://kit.fontawesome.com/ffcaccec0a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header><h1>Alarm clock</h1></header>
+        <form action="">
+        <div id="set-alarm">
+
+            <select name="hour" id="hour" class="font">
+
+                
+
+            </select>
+            <select name="minutes" id="minutes" class="font">
+
+              
+
+            </select>
+
+            
+            
+            
+            <select id="gmt" class="font">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+
+        </div>
+        <input type="submit" class="font" >
+        </form>
+        <div id="table">
+            <ul id="alarms" class="font">
+               
+            </ul>
+        </div>
+        <div id="audio">
+            <audio src="./assest/music.mp3" id="audioPlayer"></audio>
+          </div>
+
+
+
+        <div id="customAlert" class="custom-alert">
+            <div class="custom-alert-content">
+              <div id="customAlertMessage"></div>
+              <button id="customAlertButton">OK</button>
+            </div>
+          </div>
+
+       <script src="./script.js"></script>
+    </body>
+</html>
